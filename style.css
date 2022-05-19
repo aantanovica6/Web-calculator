@@ -33,7 +33,7 @@ body {
 }
 
 .container .buttons {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
 }
@@ -66,8 +66,8 @@ body {
 }  
    
 .action-btn {
-    color: grey;
-    font-weight: bold;
+    color: pink;
+    font-weight: Semi Bold;
 }
 
 .calc-action-btn{
